@@ -190,7 +190,7 @@ If you open the page in a browser and view the console, you will see that we hav
 
 Now, from within this fragment, we are able to access all of the elements that live inside of it.
 
-What we have done is turned our HTML into true elements, that are still not on the page anywhere, but we have them as DOM elements and do do things like look for an image inside of a fragment using the following code 👇
+What we have done is turned our HTML into true elements, that are still not on the page anywhere, but we have them as DOM elements and can do things like look for an image inside of a fragment using the following code 👇
 
 ```js
 myFragment.querySelector('img');
@@ -212,7 +212,7 @@ That works! You could also do  👇
 document.body.appendChild(myFragment);
 ```
 
-You could also use `insertAdjacent()` which we learned about previously.
+You could also use `insertAdjacentElement()` which we learned about previously.
 
 To recap:
 
